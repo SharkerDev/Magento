@@ -1,0 +1,7 @@
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="sales_order_grid">
+        <column xsi:type="varchar" name="coupon_code" nullable="true" length="255" comment="Coupon Code"/>
+        <column xsi:type="varchar" name="discount_amount" nullable="true" length="255" comment="Discount Amount"/>
+    </table>
+</schema>

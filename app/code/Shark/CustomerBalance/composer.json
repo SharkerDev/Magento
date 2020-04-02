@@ -1,0 +1,21 @@
+{
+  "name": "shark/customerbalance-module",
+  "description": "A Magento 2 module that creates balance amount rest api for customer",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~7.1.3||~7.2.0",
+    "magento/framework": "102.0.*",
+    "magento/module-customer": "102.0.*"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Shark\\CustomerBalance\\": ""
+    }
+  }
+}
